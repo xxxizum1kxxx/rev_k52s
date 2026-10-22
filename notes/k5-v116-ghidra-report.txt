@@ -1,0 +1,181 @@
+language: fr81:BE:16:default
+functions: 30457
+instructions: 1453481
+error bookmarks: 1928
+error bookmarks per 1MB region: {10000000=5, 10100000=1902, 10200000=1, 10600000=1, 10700000=19}
+unresolved-opcode histogram (16-bit opcode -> count, sample address):
+  0793 129 1012e110
+  9f6f 67 1016a796
+  9f2b 37 101b2db6
+  07a1 33 1012e40a
+  079e 31 1012f02c
+  9f41 30 1012f0e2
+  bef1 28 1012e0e4
+  0798 27 1015b1a4
+  179c 22 10155fee
+  be3a 20 1015c158
+  179d 19 1015e054
+  be48 17 1012e748
+  9f37 14 1017809e
+  9f5e 13 1015e468
+  9fe1 13 1012ec84
+  bef5 12 101657aa
+  be00 11 1012db94
+  179b 10 101a0540
+  1795 9 101a2a78
+  9f63 9 1015c164
+  9fbf 9 1015e006
+  1793 8 1012fcb6
+  179a 8 101a2c3e
+  17af 7 1012eabc
+  bebc 7 1015c38e
+  07b5 6 1017b474
+  1796 6 101a1364
+  9f6c 6 1016c0d4
+  9ffc 6 10176790
+  9fb4 5 1015d058
+  9fb8 5 1015469e
+  bed6 5 1013df6e
+  07bf 4 101564e4
+  9f26 4 1015edf0
+  9f4b 4 10159660
+  9f6e 4 1013a612
+  be64 4 101714ee
+  beb7 4 10179fb0
+  bee1 4 1016e4de
+  079b 3 101717be
+
+=== probe "DEBUG MODE" at 1070a9f4
+  ref from 10245af6 in FUN_10245acc
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_10245acc(int param_1)
+
+{
+  int iVar1;
+  char *pcVar2;
+  
+  iVar1 = FUN_105907e2(param_1 + 4,0x10b0001);
+  if (_DAT_c000468c == 0) {
+    pcVar2 = s_DEBUG_MODE_1070a9f4;
+  }
+  else {
+    pcVar2 = s_PC_VENDOR_1070a9e8;
+  }
+  FUN_101f698c(iVar1,pcVar2);
+  (**(code **)(*(int *)(iVar1 + 0x28) + 0xc))(*(short *)(*(int *)(iVar1 + 0x28) + 8) + iVar1,1);
+  return;
+}
+
+
+
+=== probe "C:\%08d.%03d" at 1079954c
+  ref from 1060b190 in FUN_1060b154
+
+undefined4 FUN_1060b154(void)
+
+{
+  undefined1 *puVar1;
+  uint uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  int iVar5;
+  byte *pbVar6;
+  byte abStack_8f [80];
+  byte local_3f [54];
+  undefined1 uStack_9;
+  
+  puVar1 = &stack0xfffffff8;
+  FUN_1047afc4(&uStack_9);
+  uVar3 = FUN_1047aff8(&uStack_9);
+  uVar4 = FUN_1047afee(&uStack_9);
+  FUN_106e89de(abStack_8f,s_C___08d__03d_1079954c,uVar3,uVar4);
+  iVar5 = FUN_1058abbc();
+  uVar4 = *(undefined4 *)(iVar5 + 0x10);
+  pbVar6 = local_3f + 0xf;
+  FUN_106bc83a(pbVar6);
+  iVar5 = FUN_106bd40c(uVar4,abStack_8f,pbVar6);
+  uVar3 = 0;
+  if (iVar5 != 0) {
+    local_3f[0] = 0x6a;
+    local_3f[1] = 0x13;
+    local_3f[2] = 0x75;
+    local_3f[3] = 0x6d;
+    local_3f[4] = 0x6c;
+    local_3f[5] = 0x7f;
+    local_3f[6] = 0x6c;
+    local_3f[7] = 0x65;
+    local_3f[8] = 0x66;
+    local_3f[9] = 0x79;
+    local_3f[10] = 7;
+    local_3f[0xb] = 100;
+    local_3f[0xc] = 0x66;
+    local_3f[0xd] = 0x6d;
+    local_3f[0xe] = 0x29;
+    uVar2 = 0;
+    do {
+      puVar1[-0x87] = puVar1[-0x37] ^ 0xff;
+      puVar1[-0x87] = puVar1[-0x87] ^ 0xd6;
+      uVar2 = uVar2 + 1;
+      puVar1 = puVar1 + 1;
+    } while (uVar2 < 0xf);
+    uVar3 = FUN_106bd40c(uVar4,abStack_8f,pbVar6);
+  }
+  FUN_106bc8a4(pbVar6,2);
+  FUN_1047afd8(&uStack_9,2);
+  return uVar3;
+}
+
+
+
+=== probe "%04d/%02d/%02d" at 1070a660
+  ref from 10241390 in FUN_10241320
+
+void FUN_10241320(int param_1)
+
+{
+  char cVar1;
+  int iVar2;
+  char *pcVar3;
+  ushort uVar4;
+  undefined1 uVar5;
+  undefined4 uVar6;
+  ushort uVar7;
+  
+  uVar6 = 0;
+  iVar2 = FUN_1022fd86(0x11c0008);
+  (**(code **)(*(int *)(iVar2 + 0x28) + 0xc))(iVar2 + *(short *)(*(int *)(iVar2 + 0x28) + 8),0);
+  cVar1 = *(char *)(param_1 + 0xac);
+  if (cVar1 == '\0') {
+    uVar6 = 0x11c0020;
+    uVar4 = *(ushort *)(param_1 + 0xb6);
+    uVar5 = *(undefined1 *)(param_1 + 0xb8);
+    uVar7 = (ushort)*(byte *)(param_1 + 0xb9);
+    pcVar3 = s__04d__02d__02d_1070a660;
+  }
+  else if (cVar1 == '\x01') {
+    uVar6 = 0x11c0021;
+    uVar4 = (ushort)*(byte *)(param_1 + 0xb8);
+    uVar5 = *(undefined1 *)(param_1 + 0xb9);
+    uVar7 = *(ushort *)(param_1 + 0xb6);
+    pcVar3 = s__02d__02d__04d_1070a670;
+  }
+  else {
+    if (cVar1 != '\x02') goto LAB_102413e2;
+    uVar6 = 0x11c0022;
+    uVar4 = (ushort)*(byte *)(param_1 + 0xb9);
+    uVar5 = *(undefined1 *)(param_1 + 0xb8);
+    uVar7 = *(ushort *)(param_1 + 0xb6);
+    pcVar3 = s__02d__02d__04d_1070a670;
+  }
+  FUN_106e89de(&stack0xfffffffd,pcVar3,uVar4,uVar5,uVar7,0x30,0x30,0);
+LAB_102413e2:
+  iVar2 = FUN_1022fd86(param_1,uVar6);
+  (**(code **)(*(int *)(iVar2 + 0x28) + 0xc))(iVar2 + *(short *)(*(int *)(iVar2 + 0x28) + 8),1);
+  FUN_1022fd86(param_1,0x11c002d);
+  FUN_101f698c(&stack0xfffffffd);
+  return;
+}
+
+

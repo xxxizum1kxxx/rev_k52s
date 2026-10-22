@@ -1,0 +1,17 @@
+*.zip
+fw/
+ghidra/
+notes/*.log
+tools/pentax-firmware-tool/
+tools/ghidra-fr60/
+tools/ghidra-mcp/
+__pycache__/
+tools/nikon-firmware-tools/
+.cursor/
+notes/dec_*.c
+# camera dumps written by debug scripts / DEBUG_MODE (camera-unique data)
+KB[0-9]*.BIN
+*.ADJ
+*.USR
+*.LNS
+*CAM.LOG

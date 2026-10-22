@@ -1,0 +1,60 @@
+OK  ret=1 'DEBUG_MODE EN'                  -> 00=01 
+OK  ret=1 'DEBUG_MODE DIS'                 -> 00=02 
+OK  ret=1 'CFDOOR_OPEN EN'                 -> 01=01 
+OK  ret=1 'CFDOOR_OPEN DIS'                -> 01=02 
+OK  ret=1 'WRITE_CF_VNDR EN'               -> 02=01 
+OK  ret=1 'WRITE_CF_VNDR DIS'              -> 02=02 
+OK  ret=1 'SCRIPT_EN_MODE EN'              -> 03=01 
+OK  ret=1 'SCRIPT_EN_MODE DIS'             -> 03=02 
+OK  ret=1 'USR_DAT_CLEAR'                  -> 04=01 
+OK  ret=1 'SWITCH_TEST'                    -> 05=01 
+OK  ret=1 'DISPLAY_TEST'                   -> 06=01 
+OK  ret=1 'MEMORY_TEST'                    -> 07=01 
+OK  ret=1 'RELEASE_AGING'                  -> 08=01 
+OK  ret=1 'LENS_COMUNICATION_CHECK'        -> 09=01 
+OK  ret=1 'CPU_ADJ_FLG_CLEAR'              -> 0A=01 
+OK  ret=1 'CPU_ADJ_CSV_WRITE'              -> 0B=01 
+OK  ret=1 'CPU_TST_CSV_WRITE'              -> 0C=01 
+OK  ret=1 'CPU_ADJ_CSV_READ'               -> 0D=01 
+OK  ret=1 'CPU_TST_CSV_READ'               -> 0E=01 
+OK  ret=1 'CPU_ROM_STORE'                  -> 0F=01 
+OK  ret=1 'DSP_ROM_STORE'                  -> 10=01 
+OK  ret=1 'AF_PINT_DISP'                   -> 11=01 
+OK  ret=1 'ICCD_PINT_OFF_CLEAR'            -> 12=01 
+OK  ret=1 'COLOR_PINT_COR_CLEAR'           -> 13=01 
+OK  ret=1 'SI_ALL_ON'                      -> 14=01 
+OK  ret=1 'CPU_ADJ_DAT_READ'               -> 15=01 
+OK  ret=1 'CPU_ADJ_DAT_WRITE'              -> 16=01 
+OK  ret=1 'DSP_ADJ_DAT_READ'               -> 17=01 
+OK  ret=1 'DSP_ADJ_DAT_WRITE'              -> 18=01 
+OK  ret=1 'ALL_ADJ_DAT_READ'               -> 19=01 
+OK  ret=1 'DSP_USR_DAT_READ'               -> 1A=01 
+OK  ret=1 'DSP_USR_DAT_WRITE'              -> 1B=01 
+OK  ret=1 'SR_BULB'                        -> 1C=01 
+OK  ret=1 'DIS_AF_F28'                     -> 1D=01 
+OK  ret=1 'ONLY_AF_F28'                    -> 1E=01 
+OK  ret=1 'VLENS_CTRL'                     -> 1F=01 
+OK  ret=1 'LENS_CPU_FIRMUP'                -> 20=01 
+OK  ret=1 'LENSROM_LOAD'                   -> 21=01 
+OK  ret=1 'LENSROM_STORE'                  -> 22=01 
+OK  ret=1 'OPEN_DEBUG_MENU'                -> 23=01 
+OK  ret=1 'SW_DEBUG_MENU EN'               -> 24=01 
+OK  ret=1 'SW_DEBUG_MENU DIS'              -> 24=02 
+OK  ret=1 'REGION_CODE 0'                  -> 25=00 
+OK  ret=1 'REGION_CODE 1'                  -> 25=01 
+OK  ret=1 'REGION_CODE 2'                  -> 25=02 
+OK  ret=1 'REGION_CODE 3'                  -> 25=03 
+OK  ret=1 'REGION_CODE 4'                  -> 25=04 
+OK  ret=1 'REGION_CODE 5'                  -> 25=05 
+OK  ret=1 'DISP_REGION_CODE'               -> 26=01 
+OK  ret=1 'CAM_LOG_DAT_READ'               -> 27=01 
+OK  ret=1 'CAM_LOG_DISP'                   -> 28=01 
+OK  ret=1 'USR_CLEAR_CAM_DISP'             -> 29=01 
+OK  ret=1 'CRE_RECOVERY_FW'                -> 2A=01 
+OK  ret=1 'G200_TEST'                      -> 2B=01 
+OK  ret=1 'LIVE_VIEW_TEST_MODE EN'         -> 2C=01 
+OK  ret=1 'LIVE_VIEW_TEST_MODE DIS'        -> 2C=02 
+OK  ret=0 'debug_mode en'                  -> - 
+OK  ret=0 'DEBUG_MODE  EN'                 -> - 
+OK  ret=0 'DEBUG_MODE EN '                 -> - 
+OK  ret=0 ''                               -> - 

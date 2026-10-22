@@ -1,0 +1,60 @@
+OK  ret=1 'DEBUG_MODE EN'                    -> 00=01 steps=132 
+OK  ret=1 'DEBUG_MODE DIS'                   -> 00=02 steps=234 
+OK  ret=1 'CFDOOR_OPEN EN'                   -> 01=01 steps=178 
+OK  ret=1 'CFDOOR_OPEN DIS'                  -> 01=02 steps=288 
+OK  ret=1 'WRITE_CF_VNDR EN'                 -> 02=01 steps=230 
+OK  ret=1 'WRITE_CF_VNDR DIS'                -> 02=02 steps=354 
+OK  ret=1 'SCRIPT_EN_MODE EN'                -> 03=01 steps=275 
+OK  ret=1 'SCRIPT_EN_MODE DIS'               -> 03=02 steps=406 
+OK  ret=1 'USR_DAT_CLEAR'                    -> 04=01 steps=285 
+OK  ret=1 'SWITCH_TEST'                      -> 05=01 steps=304 
+OK  ret=1 'DISPLAY_TEST'                     -> 06=01 steps=330 
+OK  ret=1 'MEMORY_TEST'                      -> 07=01 steps=328 
+OK  ret=1 'RELEASE_AGING'                    -> 08=01 steps=361 
+OK  ret=1 'LENS_COMUNICATION_CHECK'          -> 09=01 steps=450 
+OK  ret=1 'CPU_ADJ_FLG_CLEAR'                -> 0A=01 steps=441 
+OK  ret=1 'CPU_ADJ_CSV_WRITE'                -> 0B=01 steps=516 
+OK  ret=1 'CPU_TST_CSV_WRITE'                -> 0C=01 steps=535 
+OK  ret=1 'CPU_ADJ_CSV_READ'                 -> 0D=01 steps=659 
+OK  ret=1 'CPU_TST_CSV_READ'                 -> 0E=01 steps=678 
+OK  ret=1 'CPU_ROM_STORE'                    -> 0F=01 steps=648 
+OK  ret=1 'DSP_ROM_STORE'                    -> 10=01 steps=534 
+OK  ret=1 'AF_PINT_DISP'                     -> 11=01 steps=525 
+OK  ret=1 'ICCD_PINT_OFF_CLEAR'              -> 12=01 steps=593 
+OK  ret=1 'COLOR_PINT_COR_CLEAR'             -> 13=01 steps=675 
+OK  ret=1 'SI_ALL_ON'                        -> 14=01 steps=582 
+OK  ret=1 'CPU_ADJ_DAT_READ'                 -> 15=01 steps=902 
+OK  ret=1 'CPU_ADJ_DAT_WRITE'                -> 16=01 steps=1012 
+OK  ret=1 'DSP_ADJ_DAT_READ'                 -> 17=01 steps=716 
+OK  ret=1 'DSP_ADJ_DAT_WRITE'                -> 18=01 steps=826 
+OK  ret=1 'ALL_ADJ_DAT_READ'                 -> 19=01 steps=712 
+OK  ret=1 'DSP_USR_DAT_READ'                 -> 1A=01 steps=829 
+OK  ret=1 'DSP_USR_DAT_WRITE'                -> 1B=01 steps=939 
+OK  ret=1 'SR_BULB'                          -> 1C=01 steps=727 
+OK  ret=1 'DIS_AF_F28'                       -> 1D=01 steps=809 
+OK  ret=1 'ONLY_AF_F28'                      -> 1E=01 steps=765 
+OK  ret=1 'VLENS_CTRL'                       -> 1F=01 steps=777 
+OK  ret=1 'LENS_CPU_FIRMUP'                  -> 20=01 steps=873 
+OK  ret=1 'LENSROM_LOAD'                     -> 21=01 steps=885 
+OK  ret=1 'LENSROM_STORE'                    -> 22=01 steps=967 
+OK  ret=1 'OPEN_DEBUG_MENU'                  -> 23=01 steps=895 
+OK  ret=1 'SW_DEBUG_MENU EN'                 -> 24=01 steps=956 
+OK  ret=1 'SW_DEBUG_MENU DIS'                -> 24=02 steps=1080 
+OK  ret=1 'REGION_CODE 0'                    -> 25=00 steps=945 
+OK  ret=1 'REGION_CODE 1'                    -> 25=01 steps=1049 
+OK  ret=1 'REGION_CODE 2'                    -> 25=02 steps=1152 
+OK  ret=1 'REGION_CODE 3'                    -> 25=03 steps=1255 
+OK  ret=1 'REGION_CODE 4'                    -> 25=04 steps=1358 
+OK  ret=1 'REGION_CODE 5'                    -> 25=05 steps=1461 
+OK  ret=1 'DISP_REGION_CODE'                 -> 26=01 steps=1161 
+OK  ret=1 'CAM_LOG_DAT_READ'                 -> 27=01 steps=1159 
+OK  ret=1 'CAM_LOG_DISP'                     -> 28=01 steps=1213 
+OK  ret=1 'USR_CLEAR_CAM_DISP'               -> 29=01 steps=1162 
+OK  ret=1 'CRE_RECOVERY_FW'                  -> 2A=01 steps=1223 
+OK  ret=1 'G200_TEST'                        -> 2B=01 steps=1109 
+OK  ret=1 'LIVE_VIEW_TEST_MODE EN'           -> 2C=01 steps=1247 
+OK  ret=1 'LIVE_VIEW_TEST_MODE DIS'          -> 2C=02 steps=1412 
+OK  ret=0 'debug_mode en'                    -> - steps=1079 
+OK  ret=0 'DEBUG_MODE  EN'                   -> - steps=1289 
+OK  ret=0 'DEBUG_MODE EN '                   -> - steps=1303 
+OK  ret=0 ''                                 -> - steps=1079 
